@@ -95,20 +95,6 @@ def send_message(to_user, access_token, region_name, weather_day_text, weather_d
         love_days_data = "今天是纪念日哦，祝宝贝纪念日快乐！"
     else:
         love_days_data = "距离下个纪念日还有 {} 天".format(love_days_left)
-    birthdays = {}
-    for k, v in config.items():
-        if k[0:5] == "birth":
-            birthdays[k] = v
-    birthday_data1 = []
-    birthday_data2 = []
-    for key, value in birthdays.items():
-        birthday_left = get_day_left(value["birthday"], year, today)
-        if birthday_left == 0:
-            birthday_data1.append("今天是<{}>生日哦，".format(value["name"]))
-            birthday_data2.append("祝<{}>生日快乐".format(value["name"]))
-        else:
-            birthday_data1.append("距离<{}>生日还有 {} 天".format(value["name"], birthday_left))
-            birthday_data2.append("")
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
@@ -144,18 +130,6 @@ def send_message(to_user, access_token, region_name, weather_day_text, weather_d
             },
             "love_day_data": {
                 "value": love_days_data,
-            },
-            "birthday1_part1": {
-                "value": "{}".format(birthday_data1[0]),
-            },
-            "birthday1_part2": {
-                "value": "{}".format(birthday_data2[0]),
-            },
-            "birthday2_part1": {
-                "value": "{}".format(birthday_data1[1]),
-            },
-            "birthday2_part2": {
-                "value": "{}".format(birthday_data2[1]),
             },
             "note_ch1": {
                 "value": note_ch1,
