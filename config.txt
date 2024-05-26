@@ -5,7 +5,7 @@
 # appSecret
 "app_secret": "07664e7f9d8cd09d57ef3827026a40fa",
 # 模板消息id
-"template_id": "Pl7s7In3XW2Xs0py3PJZavDudnEQ-5aWhkJG8r8gHXQ",
+"template_id": "DSigY7XcFmlrGuXfAkARF3r1XuNsQWivq39xEY2TMt8",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
 "user": ["oq-DD6qRIGGmdE4iO4BQN81y4fWI"],
  
@@ -13,15 +13,15 @@
 # 和风天气apikey
 "weather_key": "9d6372b2aad3452c841e53a7f2419e65",
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "北京",
+"region": "海淀区",
 # 在一起的日子
 "love_date": "2023-10-23",
 # 每日一句，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日一句（中英）
 # 中文
-"note_ch1": "永远爱你！",
+"note_ch1": "我喜欢清晨，因为每一样事物都是新的面，就像当初喜欢你一样，充满奇幻与未知，却依旧满怀期待！",
 "note_ch2": "",
 # 英文
-"note_en1": "Love you forever!",
+"note_en1": "I like the morning, because everything is a new side, just like you, full of fantasy and unknown, but still full of expectations!",
 "note_en2": "",
 # 德语
 "note_de1": "",
