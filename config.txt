@@ -18,11 +18,11 @@
 "love_date": "2023-10-23",
 # 每日一句，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日一句（中英）
 # 中文
-"note_ch1": "我喜欢清晨，因为每一样事物都是新的面，",
-"note_ch2": "就像喜欢你一样，充满奇幻与未知，却依旧满怀期待！",
+"note_ch1": "我对你的喜欢，胜于昨日，略匮明朝",
+"note_ch2": "",
 # 英文
-"note_en1": "I like the morning, because everything is a new side, ",
-"note_en2": "just like you, full of fantasy and unknown, but still full of expectations!",
+"note_en1": "I like you better than yesterday, a little less than tomorrow ",
+"note_en2": "",
 # 德语
 "note_de1": "",
 "note_de2": ""
