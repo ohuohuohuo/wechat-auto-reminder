@@ -18,10 +18,10 @@
 "love_date": "2023-10-23",
 # 每日一句，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日一句（中英）
 # 中文
-"note_ch1": "我对你的喜欢，胜于昨日，略匮明朝",
+"note_ch1": "",
 "note_ch2": "",
 # 英文
-"note_en1": "I like you better than yesterday, a little less than tomorrow ",
+"note_en1": "",
 "note_en2": "",
 # 德语
 "note_de1": "",
